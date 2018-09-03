@@ -1,0 +1,41 @@
+
+<div>
+    <h3 *ngIf="articleIdToUpdate; else create"> 
+       Update user for Id: {{articleIdToUpdate}}
+    </h3>
+    <ng-template #create>
+       
+    </ng-template>
+    <div>
+     <form [formGroup]="articleForm" (ngSubmit)="onArticleFormSubmit()">
+       <div class="form-group">
+      <table class="table">
+        <tr><td>Enter Name</td><td><input formControlName="title" class="form-control">
+             <label *ngIf="articleForm.get('title').invalid && processValidation" [ngClass] = "'error'"> User Name is required. </label>
+         </td></tr>
+        <tr><td>Enter Detail</td><td><input formControlName="category" class="form-control">
+             <label *ngIf="articleForm.get('category').invalid && processValidation" [ngClass] = "'error'"> User Detail is required. </label>
+      </td></tr>	
+     
+    
+        <tr><td colspan="2">
+          <button *ngIf="!articleIdToUpdate" class="btn btn-dark">Register</button>  
+         </td></tr>
+      </table>
+      </div>
+     </form> 
+     <br/>
+     <div *ngIf="statusCode; else processing">
+       <div *ngIf="statusCode === 201" [ngClass] = "'success'">
+          Registration successfull.
+       </div>   
+       
+     </div>
+    
+    </div>
+    </div>
+    <div>
+    
+    
+    
+    

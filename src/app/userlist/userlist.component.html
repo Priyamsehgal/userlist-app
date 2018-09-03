@@ -1,0 +1,13 @@
+<div>
+  
+<table class="table">
+  <thead class="thead-dark">
+  <tr> <th>Profile Picture </th> <th>Name</th><th>Detail</th> </tr> </thead>
+  <tr *ngFor="let article of allArticles" >
+      <td> <img src="../assets/images/priyam.png" width="60" height="60" style="margin-left:30px;"/></td>
+ 
+     <td>{{article.title}}</td> <td>{{article.category}}</td> 
+	 </tr>
+</table>
+
+
