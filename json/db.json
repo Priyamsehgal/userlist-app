@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "title": "Shreya",
+      "category": "C++",
+      "id": 3
+    },
+    {
+      "title": "Priya",
+      "category": "Cloud",
+      "id": 4
+    },
+    {
+      "title": "Manan",
+      "category": "Java",
+      "id": 5
+    },
+    {
+      "title": "Priyam",
+      "category": "Full Stack",
+      "id": 6
+    },
+    {
+      "title": "Bharat",
+      "category": "Oracle",
+      "id": 7
+    },
+    {
+      "title": "Harshit",
+      "category": "SAP",
+      "id": 8
+    },
+    {
+      "title": "Radha",
+      "category": ".Net",
+      "id": 9
+    },
+    {
+      "title": "Kartikey",
+      "category": "Sharepoint",
+      "id": 10
+    }
+  ]
+}

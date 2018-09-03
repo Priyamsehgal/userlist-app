@@ -1,0 +1,19 @@
+{
+  "user": [
+    {
+      "title": "Priyam",
+      "category": "Fs",
+      "id": 1
+    },
+    {
+      "title": "Manan",
+      "category": "Java",
+      "id": 2
+    },
+    {
+      "title": "Bharat",
+      "category": "C++",
+      "id": 3
+    }
+  ]
+}
